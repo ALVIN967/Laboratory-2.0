@@ -1,0 +1,26 @@
+=== BERNOULLI SEQUENCE COMPRESSION EXPERIMENTS ===
+
+p = 0.1: Theoretical H = 0.469, Avg Code Length = 0.500, CR = 1.876, Efficiency = 93.8%
+p = 0.2: Theoretical H = 0.722, Avg Code Length = 0.745, CR = 1.342, Efficiency = 96.9%
+p = 0.3: Theoretical H = 0.881, Avg Code Length = 0.905, CR = 1.105, Efficiency = 97.3%
+p = 0.4: Theoretical H = 0.971, Avg Code Length = 0.985, CR = 1.015, Efficiency = 98.6%
+p = 0.5: Theoretical H = 1.000, Avg Code Length = 1.000, CR = 1.000, Efficiency = 100.0%
+p = 0.6: Theoretical H = 0.971, Avg Code Length = 0.985, CR = 1.015, Efficiency = 98.6%
+p = 0.7: Theoretical H = 0.881, Avg Code Length = 0.905, CR = 1.105, Efficiency = 97.3%
+p = 0.8: Theoretical H = 0.722, Avg Code Length = 0.745, CR = 1.342, Efficiency = 96.9%
+p = 0.9: Theoretical H = 0.469, Avg Code Length = 0.500, CR = 1.876, Efficiency = 93.8%
+
+=== BLOCKING ANALYSIS ===
+
+Block Size: 1, Alphabet Size: 2, CR: 1.000, Avg Length: 1.000, Efficiency: 72.2%
+Block Size: 2, Alphabet Size: 4, CR: 1.320, Avg Length: 0.758, Efficiency: 95.3%
+Block Size: 4, Alphabet Size: 16, CR: 1.515, Avg Length: 0.660, Efficiency: 99.5%
+Block Size: 8, Alphabet Size: 256, CR: 1.563, Avg Length: 0.640, Efficiency: 99.9%
+
+=== ER GRAPH COMPRESSION EXPERIMENTS ===
+
+p = 0.1: Original = 4950 bits, Compressed = 2640 bits, CR = 1.875, Density = 0.100
+p = 0.3: Original = 4950 bits, Compressed = 4554 bits, CR = 1.087, Density = 0.301
+p = 0.5: Original = 4950 bits, Compressed = 4950 bits, CR = 1.000, Density = 0.498
+p = 0.7: Original = 4950 bits, Compressed = 4554 bits, CR = 1.087, Density = 0.699
+p = 0.9: Original = 4950 bits, Compressed = 2640 bits, CR = 1.875, Density = 0.900
